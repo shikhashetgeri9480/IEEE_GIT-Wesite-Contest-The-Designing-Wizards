@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+    .pogoSlider {
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #resphead {
+        display: none;
+    }
+}
+#resphead {
+    background-image: url('../images/background1.png.jpg');
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+#resphead .contact_bt {
+    background: #d4a81e;
+}
+#resphead .heading {
+    color: white;
+}
+#resphead #catch-phrase {
+    color: white;
+}
